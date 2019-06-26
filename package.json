@@ -1,0 +1,27 @@
+{
+  "name": "g-web",
+  "version": "1.0.0",
+  "description": "graphql web api gateway",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengjun1986/g-web.git"
+  },
+  "author": "alex",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "apollo-server-koa": "^2.5.0",
+    "graphql": "^14.3.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
